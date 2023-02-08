@@ -8,7 +8,7 @@ class Insect:
         self.flight = None
 
     def flight_time(self):
-        self.flight = random.randint(1,11)
+        self.flight = random.randint(1,10)
 
     def get_flight_time(self):
         return self.flight
