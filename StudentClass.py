@@ -12,7 +12,7 @@ class Student:
     
     def calc_age(self):
         today = date.today()
-        year = today.year
+        # year = today.year
         x = self.__dob.split('/')
         x_year = int(x[-1])
         self.__age = today.year - x_year
@@ -25,7 +25,7 @@ class Student:
         elif self.__classification == "junior":
             self.__register = "4/4 thru 4/6"
         elif self.__classification == "sophomore":
-            self.__register = "4/7thru 4/9"    
+            self.__register = "4/7 thru 4/9"    
         elif self.__classification == "freshmen":
             self.__register = "4/10 thru 4/12"
         else:
